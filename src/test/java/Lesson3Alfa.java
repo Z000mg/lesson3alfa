@@ -18,7 +18,7 @@ public class Lesson3Alfa {
     void lesson3Alfa() {
         open("https://alfabank.ru/make-money/");
         $("#filter").$("div").$("div").$(byText("Депозиты")).parent().click();
-
+1
         open("https://alfabank.ru/make-money/");
     }
 }
