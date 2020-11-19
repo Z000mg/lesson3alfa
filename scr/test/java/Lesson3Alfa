@@ -1,0 +1,12 @@
+
+
+public class Lesson3Alfa {
+
+    @BeforeAll
+    static void setup() {
+        Configuration.startMaximized = true;
+    }
+
+
+
+}
