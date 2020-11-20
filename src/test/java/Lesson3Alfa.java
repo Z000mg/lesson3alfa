@@ -25,6 +25,5 @@ public class Lesson3Alfa {
         $("#more-buttons").$("div").$("a").$(byText("Архивные счета и депозиты")).parent().click();
         $("[data-test-id=tabs-list-tabTitle-1]").$$(byText("Депозиты")).find(Condition.visible).click();
         $("#filter").$$("[data-widget-name=CatalogCard]").shouldHaveSize(5);
-        del
     }
 }
