@@ -30,5 +30,9 @@ public class Lesson3Alfa {
         open("https://alfabank.ru/make-money/");
         $("[data-test-id=tabs-list-tabTitle-0]").sibling(0).click();
         $(byText("Альфа-Банк является участником системы обязательного страхования вкладов")).shouldBe(Condition.visible);
+        $("[data-test-id=tabs-list-tabTitle-0]").sibling(1).click();
+        $(byText("Что такое вклад?")).shouldBe(Condition.visible);
+
+       
         }
 }
