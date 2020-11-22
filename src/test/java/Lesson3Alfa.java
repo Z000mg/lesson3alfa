@@ -17,7 +17,6 @@ public class Lesson3Alfa {
 
     @Test
     void depositesTest() {
-
         open("https://alfabank.ru/make-money/");
         $("#filter").$("div").$("div").$(byText("Депозиты")).parent().click();
         $("#more-buttons").$("div").$("a").$(byText("Архивные счета и депозиты")).parent().click();
