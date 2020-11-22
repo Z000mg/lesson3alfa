@@ -18,8 +18,8 @@ public class Lesson3AlfaTests {
     @Test
     void depositsTest() {
         open("https://alfabank.ru/make-money/");
-        $("#filter").$("div").$("div").$(byText("Депозиты")).parent().click();
-        $("#more-buttons").$("div").$("a").$(byText("Архивные счета и депозиты")).parent().click();
+        $("#filter").$(byText("Депозиты")).parent().click();
+        $("#more-buttons").$(byText("Архивные счета и депозиты")).parent().click();
         $("[data-test-id=tabs-list-tabTitle-1]").$$(byText("Депозиты")).find(visible).click();
         $("#filter").$$("[data-widget-name=CatalogCard]").shouldHaveSize(5);
     }
