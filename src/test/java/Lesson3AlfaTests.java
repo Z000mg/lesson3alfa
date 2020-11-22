@@ -15,7 +15,7 @@ public class Lesson3AlfaTests {
         Configuration.startMaximized = true;
     }
 
-    @Test
+    @Test1
     void depositsTest() {
         open("https://alfabank.ru/make-money/");
         $("#filter").$(byText("Депозиты")).parent().click();
