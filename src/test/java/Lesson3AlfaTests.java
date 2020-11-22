@@ -4,11 +4,10 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
 
-public class Lesson3Alfa {
+public class Lesson3AlfaTests {
 
     @BeforeAll
     static void setup(){
